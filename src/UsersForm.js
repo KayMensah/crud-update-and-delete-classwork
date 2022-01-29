@@ -19,7 +19,7 @@ const UserForm = (props) => {
             setName("");
             setEmail("");
             }}>
-            
+    
             <input type="text" placeholder="Name" value={name} 
              onChange={(e) => setName(e.target.value)}/>
             <input type="email" placeholder="Email" value={email} 
